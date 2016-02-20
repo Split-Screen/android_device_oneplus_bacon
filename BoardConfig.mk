@@ -198,6 +198,7 @@ endif
 -include vendor/oneplus/bacon/BoardConfigVendor.mk
 
 #TWRP flags
+TW_THEME := portrait_hdpi
 DEVICE_RESOLUTION := 1080x1920
 TW_TARGET_USES_QCOM_BSP := true
 TARGET_RECOVERY_PIXEL_FORMAT := "RGB_565"
@@ -207,4 +208,3 @@ TW_INCLUDE_CRYPTO := true
 BOARD_SUPPRESS_SECURE_ERASE := true
 RECOVERY_SDCARD_ON_DATA := true
 BOARD_HAS_NO_REAL_SDCARD := true
-RECOVERY_VARIANT := twrp
