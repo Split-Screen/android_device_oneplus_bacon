@@ -1,3 +1,0 @@
-add_lunch_combo pac_bacon-user
-add_lunch_combo pac_bacon-userdebug
-add_lunch_combo pac_bacon-eng
